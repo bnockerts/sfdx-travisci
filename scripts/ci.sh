@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 # PR ? Deploy to test box for verification
 if [ "${TRAVIS_EVENT_TYPE}" = "pull_request" ]; then
