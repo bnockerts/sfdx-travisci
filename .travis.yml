@@ -27,5 +27,4 @@ script:
 # - sfdx force:apex:test:run -u ciorg -c -r human
 # - sfdx force:org:delete -u ciorg -p
   - ./scripts/create_pr_org.sh
-  - sfdx force:source:push -u $TRAVIS_PULL_REQUEST_BRANCH -c
 
